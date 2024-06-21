@@ -1,9 +1,16 @@
 import React from 'react'
+import Navbar from './components/Navbar';
+import LandingPage from './components/LandingPage';
+ 
 
 function App() {
   return (
-    <div>App</div>
+    <div className='w-full h-screen bg-zinc-900 text-white'>
+    <Navbar></Navbar>
+    <LandingPage></LandingPage>
+    
+    </div>
   )
 }
 
-export default App
+export default App;
